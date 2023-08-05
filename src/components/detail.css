@@ -1,0 +1,80 @@
+/* detail.css */
+
+.detail-container {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: row; /* Align the buttons in a column */
+    align-items: center;
+    justify-content: space-between; /* Center the content horizontally */
+  }
+  
+  .detail-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .detail-body {
+    font-size: 18px;
+    color: #666;
+    margin-top: 10px;
+  }
+  
+  .detail-user {
+    font-size: 16px;
+    color: #888;
+    margin-top: 20px;
+  }
+  
+  .detail-image {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-top: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .detail-button-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px; /* Add some space between the buttons */
+    margin-top: 20px;
+  }
+  
+  .detail-button {
+    
+    padding: 8px 16px; /* Slightly smaller padding */
+    font-size: 16px;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: center; /* Center the text horizontally */
+    width: 120px; /* Set a fixed width for the buttons */
+  }
+  
+  .detail-button:hover {
+    background-color: #0056b3;
+  }
+  .divmyfav{
+    margin-left: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+
+  }
+  .textiamge{
+    overflow: hidden;
+    width: 200px;
+  }
+.textimage{
+    width: 60%;
+}
+#button2{
+    margin-left: 40px;
+}
